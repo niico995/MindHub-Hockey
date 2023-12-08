@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.hero {
+    width: 100%;
+    height: 500px;
+    margin-top: -60px;
+    filter: blur(5px) grayscale(0.8);
+}
+
+.headvar {
+    position: relative;
+    top: 200px;
+    left: 10%;
+    z-index: 1;
+}
+h1 {
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    font-size: 48px;
+    font-style: italic;
+    filter: drop-shadow(rgb(0, 0, 0) 2px 2px 2px);
+}
+
+.navbar {
+    display: inline-block;
+    position: relative;
+    left: 30%;
+}
+
+a {
+    padding: 10px;
+    font-size: 18px;
+    margin-left: 5px;
+    background-color: rgb(231, 143, 10);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.767);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.navbar a:hover {
+    background-color: rgb(189, 26, 26);
+    color: black;
+    box-shadow: 4px 5px 3px rgba(0, 0, 0, 0.767);
+}
+
+.logo {
+    height: 320px;
+    position: relative;
+    top: -220px;
+    left: 42%;
+    filter: drop-shadow(rgb(0, 0, 0) 4px 8px 4px);
+}
+
+.aboutLogo {
+    top: -165px;
+}
+
+.contactLogo {
+    top: -110px;
+}
+
+.secondTitle {
+    position: relative;
+    width: 15%;
+    text-align: center;
+    top: 340px;
+    left: 15%;
+    font-size: 48px;
+    font-style: italic;
+}
+
+.details {
+    position: relative;
+    top: -150px;
+    left: 50%;
+}
+
+li ,p{
+    list-style: none;
+    margin-top: 10px;
+}
+.listTitle ,p{
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+.listDescp,p{
+    margin-left: 35px;
+    font-size: 22px;
+}
+
+.longerText {
+    left: 40%;
+    top: -145px;
+}
+
+p {
+    max-width: 40%;
+}
+
+.contact {
+    left: 38%;
+    top: 90px;
+    margin-bottom: 250px;
+}
+.email {
+    text-decoration: none;
+}
+.emailAdress {
+    color: rgb(231, 136, 10);
+    background-color: white;
+    box-shadow: none;
+}
+
+.photos {
+    position: relative;
+    left: 20%;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.carrouselPhotos {
+    height: 250px;
+    border-radius: 15px;
+    margin: 0 15px;
+    box-shadow: black 2px 4px 5px;
+    transition: transform 0.2s;
+}
+
+.carrouselPhotos:hover {
+    transform: scale(1.3) rotate(360deg);
+    z-index: 1;
+}
