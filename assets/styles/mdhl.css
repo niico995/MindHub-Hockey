@@ -6,7 +6,8 @@
 }
 
 body {
-    background-color: rgb(37, 37, 37);
+    background-color: rgb(17, 16, 16);
+    overflow-x: hidden;
 }
 
 header {
@@ -42,7 +43,7 @@ nav {
 }
 
 a {
-    padding: 5px;
+    padding: 10px;
     margin-left: 5px;
     background-color: rgb(154, 190, 54);
     border: solid 1.4px black;
@@ -92,19 +93,30 @@ a {
     height: 30px;
 }
 
-li {
+li ,p{
     list-style: none;
     margin-top: 10px;
 }
-.listTitle {
+.listTitle ,p{
     font-size: 24px;
     font-weight: bold;
     font-style: italic;
 }
-.listDescp {
+.listDescp,p{
     margin-left: 35px;
     font-size: 22px;
 }
+
+.longerText {
+    left: 40%;
+    top: -145px;
+}
+
+p {
+    max-width: 40%;
+}
+
+
 
 
 .carrouselPhotos {
