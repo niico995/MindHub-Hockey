@@ -113,6 +113,8 @@ main {
     color: rgb(223, 136, 7);
 }
 
+
+
 .rulesContent {
     width: 50%;
     font-size: 18px;
@@ -133,6 +135,17 @@ main {
 }
 
 .ruleTitle {
+    font-weight: bold;
+}
+.rulesAdvise {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.thirdTitle {
+    font-size: 28px;
     font-weight: bold;
 }
 
